@@ -25,6 +25,15 @@ body {
     p {
         font-size: 12px;
     }
+
+    #careersGrid .col-auto {
+        font-size: x-large;
+    }
+
+    #title {
+        font-size: 50%;
+    }
+
 }
 
 h2 {
