@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto !important;
+    background-color: #1F1F1F !important;
+    color: #C0BEC0b0 !important;
+    font-family: 'Poppins', 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #present, #past {
+        margin: 40px 10px !important;
+    }
+
+    #past h2, #past p {
+        margin: 15px 10px !important;
+        text-align: right !important;
+        padding-left: 0 !important;
+    }
+
+    #present .profilePicture, #past .profilePicture {
+        order: 1;
+        margin-bottom: 10px;
+    }
+    #past .text-sm-right.text-justify {
+        order: 2;
+    }
+}
+
+h2 {
+    color: #f5f3f5b0 !important;
+}
+
+/* Header navbar: menus and contact links */
+
+    header {
+        background-color: #1F1F1FEB;
+        width: 100%;
+        min-width: 320px;
+        height: 40px;
+        position: fixed;
+        z-index: 10;
+        list-style: none;
+        top: 0;
+        padding-top: 10px;
+    }
+
+    footer {
+        z-index: 10;
+        background-color: #1F1F1FEB;
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    footer li, footer li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    header ul {
+        text-align: left;
+    }
+
+    ul {
+        margin: 10px 10px 0 5px;
+    }
+
+    li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    header li a {
+        position: relative;
+        text-decoration: none;
+        color: #f5f3f5b0;
+        font-weight: 500;
+        overflow: hidden;
+    }
+
+    header li a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
+        bottom: 0;
+        left: 50%;
+        background: #C0BEC0b0;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: center;
+        transition: transform .3s;
+    }
+
+    header li a:hover::before {
+        transform: translateX(-50%) scaleX(1);
+    }
+
+    footer li a:hover {
+        color: #fff;
+        filter: drop-shadow(0 0 1rem #fff)
+    }
+
+    header li a:hover {
+        color: #C0BEC0b0;
+        filter: drop-shadow(0 0 1rem #ffffff6d)
+    }
+
+/* aboutMe.html */
+
+    #present {
+        margin: 80px auto 10px auto;
+    }
+
+    .profilePicture {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+        filter: drop-shadow(0 0 0.30rem #C0BEC0b0);
+        margin: 10px auto;
+    }
+
+    #present h2, #present p {
+        position: relative;
+        top: 20px;
+    }
+
+    #past h2, #past p {
+        text-align: right;
+        padding-left: 100px;
+    }
