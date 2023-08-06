@@ -1,7 +1,7 @@
 # lcsvoj.github.io
 
 ## Video Demo:
-<URL HERE>
+<https://youtu.be/FVIMbx0z8n0>
 
 ## Description:
 This portfolio website is my final project for Harvard's CS50: https://lcsvoj.github.io/
