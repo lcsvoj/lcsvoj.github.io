@@ -1,16 +1,17 @@
 # lcsvoj.github.io
 
 ## Video Demo:
-    <https://youtu.be/FVIMbx0z8n0>
+<https://youtu.be/FVIMbx0z8n0>
 
 ## Description:
-    This portfolio website is my final project for Harvard's CS50: https://lcsvoj.github.io/
 
-    The website is composed of four static HTML pages, showcasing my skills, projects, and professional background, each featuring an animated and visually appealing header and footer that provides a cohesive and engagind experience.
+This portfolio website is my final project for Harvard's CS50: https://lcsvoj.github.io/
 
-    The style was implemented using Bootstrap, and some JavaScript features were added to enhance the user experience.
+The website is composed of four static HTML pages, showcasing my skills, projects, and professional background, each featuring an animated and visually appealing header and footer that provides a cohesive and engagind experience.
 
-    The website is designed to be responsive across various screen sizes, from smartphones, through tablets and notebooks, to large desktop monitors.
+The style was implemented using Bootstrap, and some JavaScript features were added to enhance the user experience.
+
+The website is designed to be responsive across various screen sizes, from smartphones, through tablets and notebooks, to large desktop monitors.
 
 ## Technologies Used:
 - HTML
@@ -57,9 +58,9 @@
 - **Interactive Elements**: The zoom-in feature on the "Skills" page was implemented to provide a more engaging and accessible way to view details.
 
 ## Future Enhancements:
-    I plan to continually update the website with new projects and skills.
-    I'm also considering adding a blog section to share insights and learnings from my professional journey.
+I plan to continually update the website with new projects and skills.
+I'm also considering adding a blog section to share insights and learnings from my professional journey.
 
 ## Contact:
-    If you have any questions or suggestions, please feel free to reach out to me.
-    You can reach me through the links on the website footer.
+If you have any questions or suggestions, please feel free to reach out to me.
+You can reach me through the links on the website footer.
